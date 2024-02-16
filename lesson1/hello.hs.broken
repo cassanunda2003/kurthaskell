@@ -1,0 +1,8 @@
+--hello.hs my first Haskell file!
+
+hello :: [a] -> [a]
+hello x = "Hello " ++ x
+
+main = do
+  print hello "mark" 
+
